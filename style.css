@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    font-family: "montserrat","inter-variable", sans-serif;
+}
+
+body {
+    background-image: url("/img/achtergrond.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.profielfoto {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.fotocontainer {
+    background: #ffffff30;
+    width: 150px;
+    height: 140px;
+    position: fixed;
+    left: 20px;
+    top: 0;
+    z-index: 1;
+    margin: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    transition: 0.2s;
+}
+
+.home {
+    position: fixed;
+    right: 400px;
+    top: 40px;
+}
+.kennis {
+    position: fixed;
+    right: 230px;
+    top: 40px;
+}
+.reflectie {
+    position: fixed;
+    right: 40px;
+    top: 40px;
+}
+
+
+.home,
+.kennis,
+.reflectie{
+    background-color: #ffffff30;
+    padding: 15px 40px;
+    z-index: 1;
+    margin: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+}
+
+.home:hover,
+.kennis:hover,
+.reflectie:hover {
+    cursor: pointer;
+    background: #f0f0f010;
+    transition: 0.2s;
+}
+
+.fotocontainer:hover {
+    background: #f0f0f010;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.cards-wrapper {
+    column-count: 3;
+    column-gap: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.kaart1 {
+    background: #ffffff10;
+    border-radius: 31% 69% 67% 33% / 30% 30% 70% 70%;
+    margin-bottom: 40px;
+    padding: 40px;
+    transform: rotate(-2deg);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    transition: 0.2s ease;
+    color:white;
+    break-inside: avoid;
+}
+
+.kaart2 {
+    background: #ffffff10;
+    border-radius: 68% 32% 11% 89% / 37% 70% 30% 63%;
+    margin-bottom: 40px;
+    padding: 40px;
+    transform: rotate(2deg);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    transition: 0.2s ease;
+    color:white;
+    break-inside: avoid;
+}
+.kaart3 {
+    background: #ffffff10;
+    border-radius: 72% 28% 59% 41% / 34% 42% 58% 66%;
+    margin-bottom: 40px;
+    padding: 40px;
+    transform: rotate(-2deg);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    transition: 0.2s ease;
+    color:white;
+    break-inside: avoid;
+}
+.kaart4 {
+    background: #ffffff10;
+    border-radius: 20% 80% 80% 20% / 53% 89% 11% 47%;
+    margin-bottom: 40px;
+    padding: 40px;
+    transform: rotate(2deg);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    transition: 0.2s ease;
+    color:white;
+    break-inside: avoid;
+}
+.kaart5 {
+    background: #ffffff10;
+    border-radius: 54% 46% 74% 26% / 21% 70% 30% 79%;
+    margin-bottom: 40px;
+    padding: 40px;
+    transform: rotate(2deg);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    transition: 0.2s ease;
+    color:white;
+    break-inside: avoid;
+}
+.kaart6 {
+    background: #ffffff10;
+    border-radius: 61% 39% 51% 49% / 41% 72% 28% 59%;
+    margin-bottom: 40px;
+    padding: 40px;
+    transform: rotate(-2deg);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    transition: 0.2s ease;
+    color:white;
+    break-inside: avoid;
+}
+.kaart7 {
+    background: #ffffff10;
+    border-radius: 74% 26% 61% 39% / 51% 70% 30% 49%;
+    margin-bottom: 40px;
+    padding: 40px;
+    transform: rotate(-2deg);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    transition: 0.2s ease;
+    color:white;
+    break-inside: avoid;
+}
+.kaart8 {
+    background: #ffffff10;
+    border-radius: 49% 51% 40% 60% / 53% 71% 29% 47%;
+    margin-bottom: 40px;
+    padding: 40px;
+    transform: rotate(-2deg);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    transition: 0.2s ease;
+    color:white;
+    break-inside: avoid;
+}
+.kaart9 {
+    background: #ffffff10;
+    border-radius: 81% 19% 43% 57% / 33% 89% 11% 67%;
+    margin-bottom: 40px;
+    padding: 40px;
+    transform: rotate(-2deg);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    transition: 0.2s ease;
+    color:white;
+    break-inside: avoid;
+}
+
+.cards-wrapper div:hover {
+    transform: scale(1.05) rotate(0deg);
+}
+
+
+@media(max-width: 900px) {
+    .cards-wrapper {
+        column-count: 2;
+    }
+}
+
+@media(max-width: 600px) {
+    .cards-wrapper {
+        column-count: 1;
+    }
+}
+
+
+/*-------STATUS-------*/
+
+
+/*-------*/
