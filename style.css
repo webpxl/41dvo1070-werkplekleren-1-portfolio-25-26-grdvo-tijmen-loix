@@ -92,7 +92,7 @@ header {
 
 .kaart1 {
     background: #ffffff10;
-    border-radius: 31% 69% 67% 33% / 30% 30% 70% 70%;
+    border-radius: 20px;
     margin-bottom: 40px;
     padding: 40px;
     transform: rotate(-2deg);
@@ -105,7 +105,7 @@ header {
 
 .kaart2 {
     background: #ffffff10;
-    border-radius: 68% 32% 11% 89% / 37% 70% 30% 63%;
+    border-radius: 20px;
     margin-bottom: 40px;
     padding: 40px;
     transform: rotate(2deg);
@@ -117,7 +117,7 @@ header {
 }
 .kaart3 {
     background: #ffffff10;
-    border-radius: 72% 28% 59% 41% / 34% 42% 58% 66%;
+    border-radius: 20px;
     margin-bottom: 40px;
     padding: 40px;
     transform: rotate(-2deg);
@@ -129,7 +129,7 @@ header {
 }
 .kaart4 {
     background: #ffffff10;
-    border-radius: 20% 80% 80% 20% / 53% 89% 11% 47%;
+    border-radius: 20px;
     margin-bottom: 40px;
     padding: 40px;
     transform: rotate(2deg);
@@ -141,7 +141,7 @@ header {
 }
 .kaart5 {
     background: #ffffff10;
-    border-radius: 54% 46% 74% 26% / 21% 70% 30% 79%;
+    border-radius: 20px;
     margin-bottom: 40px;
     padding: 40px;
     transform: rotate(2deg);
@@ -153,7 +153,7 @@ header {
 }
 .kaart6 {
     background: #ffffff10;
-    border-radius: 61% 39% 51% 49% / 41% 72% 28% 59%;
+    border-radius: 20px;
     margin-bottom: 40px;
     padding: 40px;
     transform: rotate(-2deg);
@@ -165,7 +165,7 @@ header {
 }
 .kaart7 {
     background: #ffffff10;
-    border-radius: 74% 26% 61% 39% / 51% 70% 30% 49%;
+    border-radius: 20px;
     margin-bottom: 40px;
     padding: 40px;
     transform: rotate(-2deg);
@@ -177,7 +177,7 @@ header {
 }
 .kaart8 {
     background: #ffffff10;
-    border-radius: 49% 51% 40% 60% / 53% 71% 29% 47%;
+    border-radius: 20px;
     margin-bottom: 40px;
     padding: 40px;
     transform: rotate(-2deg);
@@ -189,7 +189,7 @@ header {
 }
 .kaart9 {
     background: #ffffff10;
-    border-radius: 81% 19% 43% 57% / 33% 89% 11% 67%;
+    border-radius: 20px;
     margin-bottom: 40px;
     padding: 40px;
     transform: rotate(-2deg);
@@ -216,9 +216,3 @@ header {
         column-count: 1;
     }
 }
-
-
-/*-------STATUS-------*/
-
-
-/*-------*/
