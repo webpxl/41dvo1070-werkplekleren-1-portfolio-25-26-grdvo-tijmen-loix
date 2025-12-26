@@ -11,13 +11,28 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    margin: 40px 0;
 }
 
 .profielfoto {
-    width: 100%;
+    background: #ffffff30;
+    width: 150px;
+    height: 140px;
+    z-index: 1;
+    margin: 20px;
     border-radius: 20px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    transition: 0.2s;
 }
 
 
@@ -36,21 +51,6 @@ header {
     transition: 0.2s;
 }
 
-.home {
-    position: fixed;
-    right: 400px;
-    top: 40px;
-}
-.kennis {
-    position: fixed;
-    right: 230px;
-    top: 40px;
-}
-.reflectie {
-    position: fixed;
-    right: 40px;
-    top: 40px;
-}
 
 
 .home,
@@ -75,6 +75,11 @@ header {
     background: #f0f0f010;
     transition: 0.2s;
 }
+
+main {
+    margin-top: 80px;
+}
+
 
 .fotocontainer:hover {
     background: #f0f0f010;
@@ -101,6 +106,7 @@ header {
     transition: 0.2s ease;
     color:white;
     break-inside: avoid;
+    min-height: 300px;
 }
 
 .kaart2 {
@@ -114,6 +120,7 @@ header {
     transition: 0.2s ease;
     color:white;
     break-inside: avoid;
+    min-height: 300px;
 }
 .kaart3 {
     background: #ffffff10;
@@ -126,6 +133,7 @@ header {
     transition: 0.2s ease;
     color:white;
     break-inside: avoid;
+    min-height: 300px;
 }
 .kaart4 {
     background: #ffffff10;
@@ -138,6 +146,7 @@ header {
     transition: 0.2s ease;
     color:white;
     break-inside: avoid;
+    min-height: 300px;
 }
 .kaart5 {
     background: #ffffff10;
@@ -150,6 +159,7 @@ header {
     transition: 0.2s ease;
     color:white;
     break-inside: avoid;
+    min-height: 300px;
 }
 .kaart6 {
     background: #ffffff10;
@@ -162,6 +172,7 @@ header {
     transition: 0.2s ease;
     color:white;
     break-inside: avoid;
+    min-height: 300px;
 }
 .kaart7 {
     background: #ffffff10;
@@ -174,7 +185,18 @@ header {
     transition: 0.2s ease;
     color:white;
     break-inside: avoid;
+    min-height: 300px;
 }
+
+.kaart7 img {
+    width: 55px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+
 .kaart8 {
     background: #ffffff10;
     border-radius: 20px;
@@ -186,6 +208,7 @@ header {
     transition: 0.2s ease;
     color:white;
     break-inside: avoid;
+    min-height: 300px;
 }
 .kaart9 {
     background: #ffffff10;
@@ -198,6 +221,7 @@ header {
     transition: 0.2s ease;
     color:white;
     break-inside: avoid;
+    min-height: 300px;
 }
 
 .cards-wrapper div:hover {
