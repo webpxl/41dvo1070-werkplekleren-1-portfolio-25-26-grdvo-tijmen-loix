@@ -2,69 +2,355 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio CV</title>
+    <title>Tijmen Loix - Portfolio</title>
     <link rel="icon" type="image/png" href="img/Nov 27, 2025, 12:45:21 PM.jpg">
-    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Optional: Bootstrap Icons -->
+    <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/gwg2ecu.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <img class="profielfoto" src="img/profielfoto.png" alt="profielfoto"/>
-    <nav>
-        <a href="index.html" class="home">Home</a>
-        <a href="index.html" class="reflectie">Reflectie</a>
-    </nav>
-</header>
-<main>
-    <div class="cards-wrapper">
-        <div class="kaart1">
-            <h1>Tijmen loix</h1>
-            <p>Ik ben Tijmen Loix, ik ben 18 jaar en woon in zutendaal. </p>
+<!-- Navigation -->
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div class="container-fluid px-4">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img class="profile-nav" src="img/profielfoto.png" alt="Tijmen Loix">
+            <span class="ms-3">Tijmen Loix</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Opleidingen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#languages">Talen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-        <div class="kaart3">kaart</div>
-        <div class="kaart4">kaart</div>
-        <div class="kaart2">
-            <h1>Woonplaats:</h1>
-            <h3>Limburg</h3>
-            <h4>3690 Zutendaal</h4>
-            <p>Merellaan</p>
-        </div>
-        <div class="kaart5">kaart</div>
-        <div class="kaart6">kaart</div>
-        <div class="kaart7">
-            <h1>Contact:</h1>
-            <p>Telefoon: +32 468485595</p>
-            <p>E-mail: tijmenloix@icloud.com</p>
-            <a class="youtube" href="https://www.youtube.com/@DJ_TIJMEN" target="_blank">
-                <img src="img/youtube-svgrepo-com.svg" alt="Youtube"/>
-            </a>
-            <a class="facebook" href="https://www.facebook.com/tijmen.loix.7" target="_blank">
-                <img src="img/facebook-svgrepo-com.svg" alt="Facebook"/>
-            </a>
-            <a class="youtube" href="https://www.instagram.com/tijmenloix" target="_blank">
-                <img src="img/instagram-svgrepo-com.svg" alt="Instagram"/>
-            </a>
-        </div>
-        <div class="kaart8">kaart</div>
-        <div class="kaart9">kaart</div>
     </div>
+</nav>
 
+<!-- Main Content -->
+<main class="pt-5">
+    <div class="container-lg">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-white mb-4 mb-md-0">
+                    <h1 class="display-4 fw-bold mb-3">Hallo, ik ben Tijmen!</h1>
+                    <p class="lead mb-4">Een enthousiaste 18-jarige developer en DJ uit Zutendaal, Limburg.</p>
+                    <p class="fs-5 mb-4">Met passie voor coding, creatief design en muziekproductie.</p>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/@DJ_TIJMEN" target="_blank" class="social-btn">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/tijmen.loix.7" target="_blank" class="social-btn">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/tijmenloix" target="_blank" class="social-btn">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/profielfoto.png" alt="Tijmen Loix" class="profile-img">
+                </div>
+            </div>
+        </section>
 
+        <!-- About Section -->
+        <section id="about" class="about-section mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card-glass">
+                        <div class="card-icon">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <h3>Over mij</h3>
+                        <p>Ik ben Tijmen Loix, een 18-jarige jongeman met een passie voor technologie en creatieve projecten. Ik ben geboren en getogen in Zutendaal en hou van het combineren van codering met creative design.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-glass">
+                        <div class="card-icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <h3>Woonplaats</h3>
+                        <p><strong>Limburg, België</strong><br>Zutendaal, 3690</p>
+                        <div class="location-details">
+                            <p class="mb-0"><i class="bi bi-telephone-fill"></i> +32 468 485 595</p>
+                            <p class="mb-0"><i class="bi bi-envelope-fill"></i> tijmenloix@icloud.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section mb-5">
+            <h2 class="section-title text-white mb-5">Mijn Vaardigheden</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card-glass skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h4>Web Development</h4>
+                        <div class="skill-list">
+                            <span class="skill-badge">HTML5</span>
+                            <span class="skill-badge">CSS3</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card-glass skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-palette-fill"></i>
+                        </div>
+                        <h4>Design</h4>
+                        <div class="skill-list">
+                            <span class="skill-badge">Photoshop</span>
+                            <span class="skill-badge">Illustrator</span>
+                            <span class="skill-badge">UI/UX</span>
+                            <span class="skill-badge">Graphic Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card-glass skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-music-note-beamed"></i>
+                        </div>
+                        <h4>Audio & Music</h4>
+                        <div class="skill-list">
+                            <span class="skill-badge">Production</span>
+                            <span class="skill-badge">DJ</span>
+                            <span class="skill-badge">Audio Editing</span>
+                            <span class="skill-badge">Mixing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="hobbies-section mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card-glass">
+                        <div class="card-icon">
+                            <i class="bi bi-music-note-list"></i>
+                        </div>
+                        <h3>Mijn Hobby's</h3>
+                        <ul class="hobby-list">
+                            <li><i class="bi bi-disc"></i> DJ/Producer</li>
+                            <li><i class="bi bi-racket2"></i> Badminton</li>
+                            <li><i class="bi bi-heart-pulse"></i> Fitness (Basic-fit)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-glass">
+                        <div class="card-icon">
+                            <i class="bi bi-briefcase-fill"></i>
+                        </div>
+                        <h3>Microsoft Office</h3>
+                        <p>Vaardige gebruiker van Microsoft Office suite:</p>
+                        <div class="skill-list">
+                            <span class="skill-badge">Word</span>
+                            <span class="skill-badge">Excel</span>
+                            <span class="skill-badge">PowerPoint</span>
+                            <span class="skill-badge">Teams</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section mb-5">
+            <h2 class="section-title text-white mb-5">Opleidingen</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card-glass">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="bi bi-graduation-cap"></i>
+                            </div>
+                            <div>
+                                <h4>PXL Digitale Vormgeving</h4>
+                                <p class="education-period"><i class="bi bi-calendar3"></i> 2025 - heden</p>
+                            </div>
+                        </div>
+                        <p class="education-description">Studie digitale vormgeving en webdesign aan PXL Hogeschool.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card-glass">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="bi bi-person-badge"></i>
+                            </div>
+                            <div>
+                                <h4>Sportbegeleider</h4>
+                                <p class="education-period"><i class="bi bi-calendar3"></i> 2019 - 2025</p>
+                            </div>
+                        </div>
+                        <p class="education-description">Opleiding en ervaring als sportbegeleider met focus op coaching en trainingsleiding.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section id="languages" class="languages-section mb-5">
+            <h2 class="section-title text-white mb-5">Talenkennis</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card-glass language-card">
+                        <div class="language-flag">🇳🇱</div>
+                        <h4>Nederlands</h4>
+                        <p class="language-level">Moedertaal</p>
+                        <div class="language-bar">
+                            <div class="language-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card-glass language-card">
+                        <div class="language-flag">🇬🇧</div>
+                        <h4>Engels</h4>
+                        <p class="language-level">Heel goed</p>
+                        <div class="language-bar">
+                            <div class="language-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card-glass language-card">
+                        <div class="language-flag">🇫🇷</div>
+                        <h4>Frans</h4>
+                        <p class="language-level">Basiskennis</p>
+                        <div class="language-bar">
+                            <div class="language-progress" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Info Section -->
+        <section id="additional-info" class="additional-info-section mb-5">
+            <h2 class="section-title text-white mb-5">Overige Informatie</h2>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="card-glass">
+                        <ul class="additional-list">
+                            <li>
+                                <div class="additional-icon">
+                                    <i class="bi bi-car-front"></i>
+                                </div>
+                                <div>
+                                    <h5>Rijbewijs</h5>
+                                    <p>In het bezit van een rijbewijs categorie B</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="additional-icon">
+                                    <i class="bi bi-cup-hot"></i>
+                                </div>
+                                <div>
+                                    <h5>Werkervaring</h5>
+                                    <p>Studentenjob in de Horeca sector</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="additional-icon">
+                                    <i class="bi bi-people-fill"></i>
+                                </div>
+                                <div>
+                                    <h5>Persoonlijkheid</h5>
+                                    <p>Zeer sociaal ingesteld met goede communicatievaardigheden</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section mb-5">
+            <h2 class="section-title text-white mb-4">Neem Contact Op</h2>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="card-glass">
+                        <div class="contact-content">
+                            <div class="contact-item mb-4">
+                                <i class="bi bi-telephone-fill"></i>
+                                <div>
+                                    <h5>Telefoon</h5>
+                                    <p><a href="tel:+32468485595">+32 468 485 595</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item mb-4">
+                                <i class="bi bi-envelope-fill"></i>
+                                <div>
+                                    <h5>E-mail</h5>
+                                    <p><a href="mailto:tijmenloix@icloud.com">tijmenloix@icloud.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="bi bi-link-45deg"></i>
+                                <div>
+                                    <h5>Social Media</h5>
+                                    <div class="social-links-contact">
+                                        <a href="https://www.youtube.com/@DJ_TIJMEN" target="_blank">YouTube</a>
+                                        <a href="https://www.facebook.com/tijmen.loix.7" target="_blank">Facebook</a>
+                                        <a href="https://www.instagram.com/tijmenloix" target="_blank">Instagram</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </main>
-<footer>
 
-
-
-
+<!-- Footer -->
+<footer class="footer text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-0">&copy; 2025 Tijmen Loix. Alle rechten voorbehouden.</p>
+    </div>
 </footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
 
 </body>
 </html>
+
