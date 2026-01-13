@@ -82,5 +82,4 @@ Alle kleuren, fonts en spacing kunnen gemakkelijk worden aangepast in `style.css
 
 ---
 
-Gemaakt met ❤️ door Tijmen Loix
-
+Ik heb Claude AI gebruikt vooral voor de styling van mijn website, de inhoud heb ik zelf geschreven.
