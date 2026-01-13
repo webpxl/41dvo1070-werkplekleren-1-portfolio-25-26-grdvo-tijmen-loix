@@ -4,6 +4,23 @@
 
 console.log('Portfolio loaded ✨');
 
+// Hamburger Menu Toggle
+const navToggle = document.getElementById('navToggle');
+const navbarMenu = document.getElementById('navbarNav');
+
+if (navToggle) {
+    navToggle.addEventListener('click', () => {
+        navbarMenu.classList.toggle('active');
+    });
+}
+
+// Close menu when a link is clicked
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        navbarMenu.classList.remove('active');
+    });
+});
+
 // Smooth scroll behavior for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -31,7 +48,7 @@ window.addEventListener('scroll', () => {
 
     document.querySelectorAll('.nav-link').forEach(link => {
         link.classList.remove('active');
-        if (link.getAttribute('href') === `#${current}`) {
+        if (link.getAttribute('href') === `#${current}` || link.getAttribute('href') === `index.html#${current}`) {
             link.classList.add('active');
         }
     });

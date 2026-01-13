@@ -6,10 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tijmen Loix - Portfolio Werken</title>
     <link rel="icon" type="image/png" href="img/Nov 27, 2025, 12:45:21 PM.jpg">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/gwg2ecu.css">
@@ -18,16 +14,18 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-    <div class="container-fluid px-4">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
+<nav class="navbar">
+    <div class="navbar-container">
+        <a class="navbar-brand" href="index.html">
             <img class="profile-nav" src="img/profielfoto.png" alt="Tijmen Loix">
-            <span class="ms-3">Tijmen Loix</span>
+            <span class="brand-text">Tijmen Loix</span>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggle" id="navToggle">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="navbar-menu" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html#home">Home</a>
@@ -36,13 +34,13 @@
                     <a class="nav-link" href="index.html#skills">Skills</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="index.html#projects">Projecten</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="index.html#education">Opleidingen</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.html#languages">Talen</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html#projects">Projecten</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="portfolio.html">Portfolio</a>
@@ -56,156 +54,86 @@
 </nav>
 
 <!-- Main Content -->
-<main class="pt-5">
-
-
-
-    <div class="container-lg">
+<main class="main-content">
+    <div class="container">
         <!-- Page Header -->
-        <section class="page-header mb-5 mt-5">
-            <h1 class="display-4 fw-bold text-white mb-3">Mijn Portfolio</h1>
-            <p class="lead text-white">PXL Digitale Vormgeving - Mijn Rollen en Competenties</p>
-            <a href="/Eindreflectie%20WPL1%20DVO.docx" download>
-                <h4><strong>Download hier mijn eindreflectie!</strong> </h4>
+        <section class="page-header">
+            <h1>Mijn Portfolio</h1>
+            <p class="page-subtitle">PXL Digitale Vormgeving - Mijn Rollen en Competenties</p>
+            <a href="Eindreflectie%20WPL1%20DVO.docx" download class="download-btn">
+                <span>⬇️</span> Download Eindreflectie
             </a>
         </section>
 
+        <!-- Situering -->
+        <section class="situering-section">
+            <h3>Situering binnen Profiel DVO:</h3>
+        </section>
+
         <!-- ROL: CREATIEVE VORMGEVER -->
-        <h4><strong>Situering binnen Profiel DVO:</strong> </h4>
-        <section id="olr-vormgever" class="olr-section mb-5">
-            <div class="section-header mb-5">
-                <h2 class="section-title text-white">
-                    <i class="bi bi-palette-fill"></i> ROL: CREATIEVE VORMGEVER
-                </h2>
+        <section id="olr-vormgever" class="olr-section">
+            <div class="olr-header">
+                <h2>🎨 ROL: CREATIEVE VORMGEVER</h2>
             </div>
-            <div class="row mb-4">
-                <div class="col-12">
-                    <div class="card-glass">
-                        <h3 class="text-white mb-3">✨"Creative bij"</h3>
-                        <p class="text-white-50">
-                            Als creatieve vormgever creëer ik visueel aantrekkelijke ontwerpen die niet alleen mooi ogen, maar ook een doel vervullen.
-                            Ik werk met vormen, kleuren en compositie om designs te maken die gebruikers aanspreken en hen meenemen op een visuele reis.
-                            Van logo's tot volledige interface designs, ik zorg ervoor dat elke pixel op zijn plaats zit.
-                        </p>
-                    </div>
-                </div>
+            <div class="olr-content card-glass">
+                <h3>✨ "Ik kan mooie vormen maken"</h3>
+                <p>Als creatieve vormgever creëer ik visueel aantrekkelijke ontwerpen die niet alleen mooi ogen, maar ook een doel vervullen. Ik werk met vormen, kleuren en compositie om designs te maken die gebruikers aanspreken en hen meenemen op een visuele reis. Van logo's tot volledige interface designs, ik zorg ervoor dat elke pixel op zijn plaats zit.</p>
             </div>
         </section>
 
         <!-- ROL: FRONT-END ONTWIKKELAAR -->
-        <section id="olr-frontend" class="olr-section mb-5">
-            <div class="section-header mb-5">
-                <h2 class="section-title text-white">
-                    <i class="bi bi-code-slash"></i> ROL: FRONT-END ONTWIKKELAAR
-                </h2>
+        <section id="olr-frontend" class="olr-section">
+            <div class="olr-header">
+                <h2>💻 ROL: FRONT-END ONTWIKKELAAR</h2>
             </div>
-            <div class="row mb-4">
-                <div class="col-12">
-                    <div class="card-glass">
-                        <h3 class="text-white mb-3">💻 "Probleemoplossend denker"</h3>
-                        <p class="text-white-50">
-                            Als front-end ontwikkelaar ben ik het brein achter interactieve webapplicaties. Ik schrijf schone, efficiënte code
-                            in HTML, CSS en JavaScript die niet alleen werkt, maar ook elegant is. Ik ben problemoplosser van nature - ik kijk naar
-                            een challenge en vind de beste weg naar een werkende oplossing. Of het nu gaat om een complexe algoritme of een UI-bug,
-                            ik pak het aan met logica en creativiteit.
-                        </p>
-                    </div>
-                </div>
+            <div class="olr-content card-glass">
+                <h3>🔧 "Ik kan oplossing vinden en mijn code schrijven"</h3>
+                <p>Als front-end ontwikkelaar ben ik het brein achter interactieve webapplicaties. Ik schrijf schone, efficiënte code in HTML, CSS en JavaScript die niet alleen werkt, maar ook elegant is. Ik ben probleemoplosser van nature - ik kijk naar een challenge en vind de beste weg naar een werkende oplossing. Of het nu gaat om een complexe algoritme of een UI-bug, ik pak het aan met logica en creativiteit.</p>
             </div>
         </section>
 
         <!-- ROL: COMMUNICATOR / TEAMSPELER -->
-        <section id="olr-communicator" class="olr-section mb-5">
-            <div class="section-header mb-5">
-                <h2 class="section-title text-white">
-                    <i class="bi bi-chat-dots-fill"></i> ROL: COMMUNICATOR / TEAMSPELER
-                </h2>
+        <section id="olr-communicator" class="olr-section">
+            <div class="olr-header">
+                <h2>🤝 ROL: COMMUNICATOR / TEAMSPELER</h2>
             </div>
-            <div class="row mb-4">
-                <div class="col-12">
-                    <div class="card-glass">
-                        <h3 class="text-white mb-3">🤝 "Ik kan goed communiceren en problemen laten weten"</h3>
-                        <p class="text-white-50">
-                            Ik geloof in open communicatie en samenwerking. Als teamlid ben ik niet bang om mijn mening te geven en problemen aan te kaarten
-                            zodat we ze samen kunnen oplossen. Ik luister naar anderen, werk constructief samen en draag actief bij aan het team.
-                            Of het nu in Nederlands of Engels is, ik communiceer duidelijk en effectief om ervoor te zorgen dat iedereen op dezelfde pagina zit.
-                        </p>
-                    </div>
-                </div>
+            <div class="olr-content card-glass">
+                <h3>"Ik kan goed communiceren en problemen laten weten"</h3>
+                <p>Ik geloof in open communicatie en samenwerking. Als teamlid ben ik niet bang om mijn mening te geven en problemen aan te kaarten zodat we ze samen kunnen oplossen. Ik luister naar anderen, werk constructief samen en draag actief bij aan het team. Of het nu in Nederlands of Engels is, ik communiceer duidelijk en effectief om ervoor te zorgen dat iedereen op dezelfde pagina zit.</p>
             </div>
         </section>
 
         <!-- ROL: LEVENSLANG LERENDE -->
-        <section id="olr-levenslang" class="olr-section mb-5">
-            <div class="section-header mb-5">
-                <h2 class="section-title text-white">
-                    <i class="bi bi-book-fill"></i> ROL: LEVENSLANG LERENDE
-                </h2>
+        <section id="olr-levenslang" class="olr-section">
+            <div class="olr-header">
+                <h2>📚 ROL: LEVENSLANG LERENDE</h2>
             </div>
-            <div class="row mb-4">
-                <div class="col-12">
-                    <div class="card-glass">
-                        <h3 class="text-white mb-3">🚀 "Ik ben zeer leergemotiveerd"</h3>
-                        <p class="text-white-50">
-                            De wereld van design en technologie verandert constant, en dat vind ik geweldig! Ik ben voortdurend gemotiveerd om nieuwe
-                            technologieën, tools en technieken te leren. Ik zie elke uitdaging als kans om mijn vaardigheden uit te breiden en
-                            mezelf te verbeteren. Dit lifelong learning mindset helpt me altijd vooraan te blijven in dit snelle vakgebied.
-                        </p>
-                    </div>
-                </div>
+            <div class="olr-content card-glass">
+                <h3>🚀 "Ik ben zeer leergemotiveerd"</h3>
+                <p>De wereld van design en technologie verandert constant, en dat vind ik geweldig! Ik ben voortdurend gemotiveerd om nieuwe technologieën, tools en technieken te leren. Ik zie elke uitdaging als kans om mijn vaardigheden uit te breiden en mezelf te verbeteren. Dit lifelong learning mindset helpt me altijd vooraan te blijven in dit snelle vakgebied.</p>
             </div>
         </section>
 
         <!-- Special Section: Waarom PXL? -->
-        <section id="special" class="special-section mb-5">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card-glass special-card">
-                        <h2 class="text-white mb-4">
-                            <i class="bi bi-star-fill" style="color: #ffc107;"></i> Waarom PXL Digitale Vormgeving?
-                        </h2>
+        <section id="special" class="special-section">
+            <div class="special-card card-glass">
+                <h2>⭐ Waarom PXL Digitale Vormgeving?</h2>
 
-                        <div class="row g-4">
-                            <div class="col-md-6">
-                                <div class="special-subsection">
-                                    <h4 class="text-white mb-3">
-                                        <i class="bi bi-lightbulb-fill"></i> Waarom deze opleiding?
-                                    </h4>
-                                    <p class="text-white-50">
-                                        Ik koos voor PXL omdat ik twee passies wilde combineren: design en coding. Dit is de perfecte plek om
-                                        beide skills te ontwikkelen. De focus op praktische projecten en real-world experience sprak me aan.
-                                        Ik wilde meer dan alleen theorie - ik wilde daadwerkelijk professionele applicaties bouwen.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="special-subsection">
-                                    <h4 class="text-white mb-3">
-                                        <i class="bi bi-rocket-fill"></i> Waarom ben ik een goede developer/designer?
-                                    </h4>
-                                    <p class="text-white-50">
-                                        Ik ben gedreven, creatief en leer snel. Ik zie problemen als puzzels die opgelost moeten worden.
-                                        Ik ben niet bang om te experimenteren en nieuwe tools uit te proberen. Daarnaast ben ik sociaal
-                                        ingesteld, dus samenwerking in teams verloopt soepel. Ik hou van feedback en gebruik die om
-                                        continueel te verbeteren.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <hr class="my-4" style="border-color: rgba(255, 255, 255, 0.1);">
-
-                        <h4 class="text-white mb-3 mt-4">
-                            <i class="bi bi-gear-fill"></i> Mijn werkethiek
-                        </h4>
-                        <p class="text-white-50">
-                            <strong>Kwaliteit eerst:</strong> Ik lever geen werk af dat niet mijn standaard haalt.
-                            <strong>Communicatie:</strong> Ik informeer mijn team bij problemen en ben altijd bereikbaar.
-                            <strong>Leren:</strong> Elke dag ben ik aan het leren en mijn vaardigheden aan het verbeteren.
-                            <strong>Verantwoordelijkheid:</strong> Ik neem eigenaarschap van mijn projecten.
-                        </p>
+                <div class="special-content">
+                    <div class="special-subsection">
+                        <h3>💡 Waarom deze opleiding?</h3>
+                        <p>Ik koos voor PXL omdat ik twee passies wilde combineren: design en coding. Dit is de perfecte plek om beide skills te ontwikkelen. De focus op praktische projecten en real-world experience sprak me aan. Ik wilde meer dan alleen theorie - ik wilde daadwerkelijk professionele applicaties bouwen.</p>
                     </div>
+
+                    <div class="special-subsection">
+                        <h3>🚀 Waarom ben ik een goede developer/designer?</h3>
+                        <p>Ik ben gedreven, creatief en leer snel. Ik zie problemen als puzzels die opgelost moeten worden. Ik ben niet bang om te experimenteren en nieuwe tools uit te proberen. Daarnaast ben ik sociaal ingesteld, dus samenwerking in teams verloopt soepel. Ik hou van feedback en gebruik die om continueel te verbeteren.</p>
+                    </div>
+                </div>
+
+                <div class="ethics-section">
+                    <h3>⚙️ Mijn werkethiek</h3>
+                    <p><strong>Kwaliteit eerst:</strong> Ik lever geen werk af dat niet mijn standaard haalt. <strong>Communicatie:</strong> Ik informeer mijn team bij problemen en ben altijd bereikbaar. <strong>Leren:</strong> Elke dag ben ik aan het leren en mijn vaardigheden aan het verbeteren. <strong>Verantwoordelijkheid:</strong> Ik neem eigenaarschap van mijn projecten.</p>
                 </div>
             </div>
         </section>
@@ -213,14 +141,13 @@
 </main>
 
 <!-- Footer -->
-<footer class="footer text-center py-4 mt-5">
-    <div class="container">
-        <p class="mb-0">&copy; 2025 Tijmen Loix. Alle rechten voorbehouden.</p>
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2025 Tijmen Loix. Alle rechten voorbehouden.</p>
+        <p><a href="privacy.txt">Privacybeleid</a></p>
     </div>
 </footer>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="index.js"></script>
 
 </body>
