@@ -139,10 +139,16 @@ body::before {
     padding: 0;
 }
 
-.navbar-menu.active .navbar-nav {
-    flex-direction: column;
-    gap: 15px;
-}
+    .navbar-menu.active .navbar-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar-menu.active .nav-divider {
+        width: 60%;
+        height: 1px;
+        margin: 10px auto;
+    }
 
 .nav-item {
     list-style: none;
@@ -184,6 +190,26 @@ body::before {
 
 .nav-link.active {
     color: #64c8ff !important;
+}
+
+.nav-divider {
+    width: 1px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 0 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-divider {
+    width: 1px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 0 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
 }
 
 /* ========================
